@@ -1,0 +1,11 @@
+# keep CAD exports byte-identical (they are text formats git would otherwise re-line-break)
+*.step -text -diff
+*.stp  -text -diff
+*.stl  binary
+*.png  binary
+*.jpg  binary
+*.pdf  binary
+*.svg  text
+*.py   text
+*.vb   text
+*.md   text

@@ -1,0 +1,19 @@
+# OS / editor junk
+Thumbs.db
+desktop.ini
+.DS_Store
+*~
+*.bak
+~$*
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+.uv/
+uv.lock
+
+# CadQuery / render caches
+*.brep
+*.pickle
+.cache/
